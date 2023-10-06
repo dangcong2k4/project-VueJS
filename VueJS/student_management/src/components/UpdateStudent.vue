@@ -89,7 +89,6 @@
                     this.errors.dateOfBirth = 'ngày sinh không được để trống'
                     isValid = false;
                 }
-
                 if (!this.student.point){
                     this.errors.point = 'điểm không được để trống'
                     isValid = false;
